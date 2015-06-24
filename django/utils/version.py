@@ -58,6 +58,8 @@ def get_docs_version(version=None):
     else:
         return '%d.%d' % version[:2]
 
+def get_noodle_version():
+    return 'noodle.0.1'
 
 @lru_cache()
 def get_git_changeset():

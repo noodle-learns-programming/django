@@ -1,8 +1,12 @@
 from unittest import TestCase
 
-from django import get_version
+from django import get_version,get_noodle_version
 from django.utils import six
 
+print '1. Django version: '
+print '     ', get_version()
+print '2. Noodle version: '
+print '     ', get_noodle_version()
 
 class VersionTests(TestCase):
 
